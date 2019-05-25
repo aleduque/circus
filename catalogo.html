@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Distribuidora Circus</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa:500|Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+      integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="logo-container">
+      <img
+        src="circus-logo.png"
+        alt="Distribuidora Circus"
+        height="200"
+        width="200"
+        class="logo-main"
+      />
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">Somos</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="#">Promociones</a></li>
+        <li><a href="contactanos.html">Contactanos</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <div class="logo-container-mobile">
+      <img
+        src="circus-logo.png"
+        alt="Distribuidora Circus"
+        height="175"
+        width="175"
+        class="logo-main"
+        style="margin-top: 60px;"
+      />
+    </div>
+
+    <div class="tab">
+      <button
+        class="tablinks active"
+        onclick="lineaProductos(event, 'Snacks')"
+        style="margin-bottom: -6px;"
+      >
+        Linea de snacks
+      </button>
+      <button
+        class="tablinks"
+        onclick="lineaProductos(event, 'Panaderia')"
+        style="margin-bottom: -6px;"
+      >
+        Linea de panaderia
+      </button>
+      <button class="tablinks" onclick="lineaProductos(event, 'Carniceria')">
+        Linea de carniceria
+      </button>
+      <button class="tablinks" onclick="lineaProductos(event, 'Granizadas')">
+        Equipo para granizadas
+      </button>
+    </div>
+
+    <div id="Snacks" class="tabcontent">
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="maquina1.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina2.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina3.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina4.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina5.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina6.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina1.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina2.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina3.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina4.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina5.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+        <div class="grid-item">
+          <img src="maquina6.png" alt="" height="300" width="250" class="" />
+          <h2 class="catalogo-tittle">Freidora</h2>
+          <p class="catalogo-size">15' x 10' x 21'</p>
+          <p class="catalogo-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+            dolor facilisis, consequat urna hendrerit, viverra sapien.
+            Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+            nibh rhoncus.
+          </p>
+          <p class="catalogo-price">Q. 2,500</p>
+          <p class="catalogo-code">D-004565</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Panaderia" class="tabcontent">
+        <div class="grid-container">
+            <div class="grid-item">
+              <img src="maquina6.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina5.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina4.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina3.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina2.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina1.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina6.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina5.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina4.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina3.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina2.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina1.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+          </div>
+    </div>
+
+    <div id="Carniceria" class="tabcontent">
+        <div class="grid-container">
+            <div class="grid-item">
+              <img src="maquina3.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina5.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina2.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina4.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina1.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina6.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina3.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina5.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina2.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina4.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina1.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina6.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+          </div>
+    </div>
+
+    <div id="Granizadas" class="tabcontent">
+        <div class="grid-container">
+            <div class="grid-item">
+              <img src="maquina2.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina6.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina4.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina1.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina3.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina5.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina2.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina6.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina4.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina1.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina3.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+            <div class="grid-item">
+              <img src="maquina5.png" alt="" height="300" width="250" class="" />
+              <h2 class="catalogo-tittle">Freidora</h2>
+              <p class="catalogo-size">15' x 10' x 21'</p>
+              <p class="catalogo-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                dolor facilisis, consequat urna hendrerit, viverra sapien.
+                Pellentesque cursus massa nec libero dictum, sit amet vestibulum
+                nibh rhoncus.
+              </p>
+              <p class="catalogo-price">Q. 2,500</p>
+              <p class="catalogo-code">D-004565</p>
+            </div>
+          </div>
+    </div>
+
+    <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<FOOTER>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+    <aside class="social-container">
+      <div class="social">
+        <img src="facebook.svg" alt="" height="40" width="40" class="" />
+        <img src="instagram.svg" alt="" height="40" width="40" class="" />
+        <img src="whatsapp.svg" alt="" height="40" width="40" class="" />
+      </div>
+    </aside>
+    <footer class="footer-container">
+      <div class="footer-blocks directions">
+        <a href="#" style="color: #EB4132; margin-right: 15px;"
+          ><i class="fas fa-map-marked-alt fa-3x"></i
+        ></a>
+        <a href="#" style="color: #D2DDE1; margin-left: 15px;"
+          ><i class="fab fa-waze fa-3x"></i
+        ></a>
+        <!-- <img src="ubicacion.png" alt="" width="40" class="" /> -->
+        <p style="margin: 15px 0;">
+          Calzada Aguilar Batres 43-45 interior complejo de bodegas
+          Mr.Bodeguitas Z.12 2do. Nivel Ofibodega #64, Ciudad Capital.
+        </p>
+        <!-- <img src="telefono.png" alt="" width="40" class="" /> -->
+        <a href="#"
+          ><i class="fas fa-phone-volume fa-3x" style="color: #4FCD5D;"></i
+        ></a>
+        <br />
+        <div style="margin: 15px 0;">
+          <a href="tel:+50224772864" class="phone">24772864</a>
+          <a href="tel:+50258888800" class="phone">58888800</a>
+        </div>
+        <a href="#"
+          ><i
+            class="fas fa-envelope-open-text fa-3x"
+            style="color: #ffffff;"
+          ></i
+        ></a>
+        <div style="margin: 15px 0;">
+          <a href="mailto:ventas@circusnacks.com" class="correo"
+            >ventas@circusnacks.com</a
+          >
+        </div>
+        <a href="#" style="color: #bfbfbf;"
+          ><i class="far fa-clock fa-3x"></i
+        ></a>
+        <p style="margin: 15px 0;">
+          Horario de Atencion Lunes a Viernes: 8:00am-6:00pm Sabados:
+          8:00am-13:00pm
+        </p>
+      </div>
+      <div class="footer-blocks mapa">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.3174870480843!2d-90.56898978591586!3d14.580976281468136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a0d93dc10ac1%3A0xef45f62ee7258288!2sDistribuidora+Circus!5e0!3m2!1ses!2sgt!4v1558546665314!5m2!1ses!2sgt"
+          frameborder="0"
+          style="border:0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </footer>
+    <aside class="copyright">
+      <p>Designed by Chiwiwiche | All rights reserved Distribuidora Circus©</p>
+    </aside>
+
+    <script src="app.js"></script>
+    <script>
+      function lineaProductos(evt, nombreProducto) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(nombreProducto).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
+  </body>
+</html>
