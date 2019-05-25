@@ -1,9 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   font-size: 1em;
   font-family: "Comfortaa", cursive;
+  overflow: hidden;
 }
 h1 {
   font-family: "Shrikhand", cursive;
@@ -45,7 +46,7 @@ nav {
 }
 .nav-links {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -530,7 +531,7 @@ input[type="submit"]:hover {
 @media screen and (max-width: 768px) {
   /*//////////////////////////NAV\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
   nav {
     background: rgb(248, 248, 248);
@@ -609,7 +610,11 @@ input[type="submit"]:hover {
     text-align: center;
   }
   /*//////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
-
+  /*//////////////////////////FOOTER\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+  .directions {
+    width: 95%;
+  }
+  /*//////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
   /*///////////////////////MARCAS\\\\\\\\\\\\\\\\\\\\\\\\*/
   .our-brands-container {
     flex-direction: column;
