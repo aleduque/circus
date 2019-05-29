@@ -657,4 +657,7 @@ input[type="submit"]:hover {
   .lineas-text {
     width: 100%;
   }
+  .tablinks {
+    height: 12vh;
+  }
 }
