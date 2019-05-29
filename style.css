@@ -639,6 +639,9 @@ input[type="submit"]:hover {
     width: 95%;
   }
   /*//////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+  .tablinks {
+    height: 12vh;
+  }
 }
 @media screen and (max-width: 650px) {
   .grid-container {
